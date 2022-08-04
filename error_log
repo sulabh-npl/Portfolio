@@ -1,0 +1,61 @@
+[06-Jan-2022 03:41:31 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/sulabhin/public_html/portfolio/db.php on line 8
+[06-Jan-2022 03:42:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:42:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:43:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:45:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:45:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:47:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:48:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:49:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:49:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:55:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 03:55:43 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 06:31:50 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/sulabhin/public_html/portfolio/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 5
+[06-Jan-2022 06:36:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/sulabhin/public_html/portfolio/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sulabhin/public_html/portfolio/index.php on line 8
+[06-Jan-2022 11:29:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/sulabhin/public_html/portfolio/cv.php on line 118
+[06-Jan-2022 11:29:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/sulabhin/public_html/portfolio/cv.php on line 118
+[06-Jan-2022 11:30:13 UTC] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/sulabhin/public_html/portfolio/fpdf/fpdf.php:580
+Stack trace:
+#0 /home/sulabhin/public_html/portfolio/fpdf/fpdf.php(767): FPDF->Cell(100, 10, 'Some Words of A...', 'B', 2, 'L', false)
+#1 /home/sulabhin/public_html/portfolio/cv.php(123): FPDF->MultiCell(100, 10, 'Some Words of A...', 'B', 'L')
+#2 {main}
+  thrown in /home/sulabhin/public_html/portfolio/fpdf/fpdf.php on line 580

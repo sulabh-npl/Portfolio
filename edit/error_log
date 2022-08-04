@@ -1,0 +1,4 @@
+[06-Jan-2022 07:06:22 UTC] PHP Warning:  unlink(../Images/projects/2.jpg): No such file or directory in /home/sulabhin/public_html/portfolio/edit/deleProject.php on line 12
+[06-Jan-2022 10:30:29 UTC] PHP Warning:  move_uploaded_file(../images/projects/1641465029Election Project.png): failed to open stream: No such file or directory in /home/sulabhin/public_html/portfolio/edit/index.php on line 93
+[06-Jan-2022 10:30:29 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpzJNfkx' to '../images/projects/1641465029Election Project.png' in /home/sulabhin/public_html/portfolio/edit/index.php on line 93
+[06-Jan-2022 10:42:13 UTC] PHP Warning:  unlink(../Images/projects/1641465029Election Project.png): No such file or directory in /home/sulabhin/public_html/portfolio/edit/deleProject.php on line 12
