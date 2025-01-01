@@ -1,10 +1,6 @@
 <?php
 session_start();
 include("../db.php");
-if (isset($_SESSION['access'])) {
-    header("Location: index.php");
-    die("kszk");
-}
 if (isset($_POST['button'])) {
     $uname = $_POST['uname'];
     $password = $_POST['password'];
@@ -20,6 +16,10 @@ if (isset($_POST['button'])) {
             $info = "<b style='color:red'>Wrong Password</b>";
         }
     }
+}
+if (isset($_SESSION['access'])) {
+    header("Location: index.php");
+    die("kszk");
 }
 ?>
 <!DOCTYPE html>

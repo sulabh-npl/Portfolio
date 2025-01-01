@@ -49,11 +49,11 @@ $pdf->SetLineWidth(5);
 while ($row = $result->fetch_assoc()) {
     $pdf->MultiCell(60, 5, $row['name'], 0, 'L');
     $pdf->ln();
-    $pdf->SetDrawColor(150, 150, 150);
-    $pdf->Line(15, $i, 65, $i);
-    $pdf->SetDrawColor(255, 158, 0);
-    $pdf->Line(15, $i, 0.65 * $row['value'], $i);
-    $pdf->ln();
+    // $pdf->SetDrawColor(150, 150, 150);
+    // $pdf->Line(15, $i, 65, $i);
+    // $pdf->SetDrawColor(255, 158, 0);
+    // $pdf->Line(15, $i, 0.65 * $row['value'], $i);
+    // $pdf->ln();
     $i += 15;
 }
 // $pdf->ln(10);
@@ -150,4 +150,10 @@ while ($row = $result->fetch_assoc()) {
     $pdf->Ln();
 }
 
+
+$pdf->SetX(110);
+$pdf->SetY(0);
+$pdf->SetFont('Times', 'I', 6);
+$pdf->MultiCell(160, 10, "This is Auto Generated Resume, data is fetched from website itself");
+// var_dump($pdf);
 $pdf->Output();
